@@ -2,7 +2,7 @@
 
 This repository contains SharePoint Field Customizers for SharePoint Online Modern UI, which allow rendering of Plumsail Forms controls in List View.
 
-You can either download the package of each customizer and use them on your own site or clone the repository, modify code, and build your own Field Customizers based on these examples.
+You can either download the package and use it on your own site or clone the repository, modify code, and build your own Field Customizers based on these examples.
 
 ### How to use package?
 
