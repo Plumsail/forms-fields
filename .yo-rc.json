@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "plumsail-signature",
+    "libraryId": "9fa926a1-90a9-41fe-91c6-250a15b9beb3",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

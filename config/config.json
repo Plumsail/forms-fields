@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "signature-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/signature/SignatureFieldCustomizer.js",
+          "manifest": "./src/extensions/signature/SignatureFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SignatureFieldCustomizerStrings": "lib/extensions/signature/loc/{locale}.js"
+  }
+}

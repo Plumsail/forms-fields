@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "plumsail-fields",
+    "id": "9fa926a1-90a9-41fe-91c6-250a15b9beb3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Plumsail Fields",
+        "description": "Adds fields for Plumsail Form controls: Signature, Data Table, Likert Scale.",
+        "id": "19e13d5f-5616-4fc7-bfbf-c442ae14bcbd",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/plumsail.fields.sppkg"
+  }
+}

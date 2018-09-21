@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{025d3f81-a621-4714-92aa-c24522335946}"
+            Name="PlumsailSignature"
+            DisplayName="Signature"
+            Type="Note"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="1073e0de-7ffb-4450-af88-9b30da9fd35a">
+    </Field>
+</Elements>

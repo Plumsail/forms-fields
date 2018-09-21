@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://plumsailonline.sharepoint.com/sites/jusper1/Lists/CustomFields/AllItems.aspx",
+      "fieldCustomizers": {
+        "Signature": {
+          "id": "1073e0de-7ffb-4450-af88-9b30da9fd35a",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "signature": {
+      "pageUrl": "https://plumsailonline.sharepoint.com/sites/jusper1/Lists/CustomFields/AllItems.aspx",
+      "fieldCustomizers": {
+        "Signature": {
+          "id": "1073e0de-7ffb-4450-af88-9b30da9fd35a",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
