@@ -11,13 +11,19 @@ You need to download the .sppkg file first - https://github.com/Plumsail/forms-f
 Upload this file to your App Catalog in SharePoint Admin Center, more about it here - https://docs.microsoft.com/en-us/sharepoint/use-app-catalog
 
 Find and add the new application to your site:
+
 ![Add an app](http://plumsail.com/wp-content/customizer-screenshots/add-an-app.png)
 
+
 Add newly available SPFx column to the List that you want:
+
 ![Add SPFx column](http://plumsail.com/wp-content/customizer-screenshots/add-signature.png)
 
+
 Customize the form for this List, using Forms Windows application, add the control to the form, select the newly added column in SaveTo property:
+
 ![Ink Sketch to Signature Field](http://plumsail.com/wp-content/customizer-screenshots/designer-signature.png)
+
 
 ### Signature Field Customizer
 
