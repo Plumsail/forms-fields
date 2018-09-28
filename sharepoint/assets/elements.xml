@@ -9,4 +9,14 @@
             Group="SPFx Columns"
             ClientSideComponentId="1073e0de-7ffb-4450-af88-9b30da9fd35a">
     </Field>
+
+    <Field ID="{213de6b6-0d0d-4287-bea5-1a42c0978fd2}"
+            Name="PlumsailDataTable"
+            DisplayName="DataTable"
+            Type="Note"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="9d86b44c-fc29-424b-8da4-b831b9058e08">
+    </Field>
 </Elements>

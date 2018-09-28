@@ -9,10 +9,19 @@
           "manifest": "./src/extensions/signature/SignatureFieldCustomizer.manifest.json"
         }
       ]
+    },
+    "datatable-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/datatable/DatatableFieldCustomizer.js",
+          "manifest": "./src/extensions/datatable/DatatableFieldCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SignatureFieldCustomizerStrings": "lib/extensions/signature/loc/{locale}.js"
+    "SignatureFieldCustomizerStrings": "lib/extensions/signature/loc/{locale}.js",
+    "DatatableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js"
   }
 }
