@@ -35,7 +35,7 @@ export default class SignatureFieldCustomizer
 
   @override
   public onRenderCell(event: IFieldCustomizerCellEventParameters): void {
-    event.domElement.classList.add(styles.Signature);
+    event.domElement.classList.add(styles.signature);
     if (event.fieldValue) {
         event.domElement.innerHTML = `<img src=${event.fieldValue} />`;
     }

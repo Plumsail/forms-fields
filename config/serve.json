@@ -4,21 +4,16 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://sharikov.sharepoint.com/sites/dev/Lists/DataTableCustomizer/AllItems.aspx",
+      "pageUrl": "https://plumsailonline.sharepoint.com/sites/jusper1/Lists/CustomFields/AllItems.aspx",
       "fieldCustomizers": {
         "DataTable": {
           "id": "9d86b44c-fc29-424b-8da4-b831b9058e08",
           "properties": {
             "sampleText": "Value"
           }
-        }
-      }
-    },
-    "datatable": {
-      "pageUrl": "https://sharikov.sharepoint.com/sites/dev/Lists/DataTableCustomizer/AllItems.aspx",
-      "fieldCustomizers": {
-        "DataTable": {
-          "id": "9d86b44c-fc29-424b-8da4-b831b9058e08",
+        },
+        "Signature": {
+          "id": "1073e0de-7ffb-4450-af88-9b30da9fd35a",
           "properties": {
             "sampleText": "Value"
           }

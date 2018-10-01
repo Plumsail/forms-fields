@@ -13,8 +13,8 @@
     "datatable-field-customizer": {
       "components": [
         {
-          "entrypoint": "./lib/extensions/datatable/DatatableFieldCustomizer.js",
-          "manifest": "./src/extensions/datatable/DatatableFieldCustomizer.manifest.json"
+          "entrypoint": "./lib/extensions/datatable/DataTableFieldCustomizer.js",
+          "manifest": "./src/extensions/datatable/DataTableFieldCustomizer.manifest.json"
         }
       ]
     }
@@ -22,6 +22,6 @@
   "externals": {},
   "localizedResources": {
     "SignatureFieldCustomizerStrings": "lib/extensions/signature/loc/{locale}.js",
-    "DatatableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js"
+    "DataTableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js"
   }
 }

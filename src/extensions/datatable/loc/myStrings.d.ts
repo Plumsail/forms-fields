@@ -1,8 +1,8 @@
-declare interface IDatatableFieldCustomizerStrings {
+declare interface IDataTableFieldCustomizerStrings {
   Title: string;
 }
 
-declare module 'DatatableFieldCustomizerStrings' {
-  const strings: IDatatableFieldCustomizerStrings;
+declare module 'DataTableFieldCustomizerStrings' {
+  const strings: IDataTableFieldCustomizerStrings;
   export = strings;
 }

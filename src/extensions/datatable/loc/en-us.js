@@ -1,5 +1,5 @@
 define([], function() {
   return {
-    "Title": "DatatableFieldCustomizer"
+    "Title": "DataTableFieldCustomizer"
   }
 });
