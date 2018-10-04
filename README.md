@@ -17,7 +17,7 @@ Find and add the new application to your site:
 
 Add newly available SPFx column to the List that you want:
 
-![Add SPFx column](http://plumsail.com/wp-content/customizer-screenshots/add-signature.png)
+![Add SPFx column](http://plumsail.com/wp-content/customizer-screenshots/add-column.png)
 
 
 Customize the form for this List, using Forms Windows application, add the control to the form, select the newly added column in SaveTo property:
@@ -30,3 +30,15 @@ Customize the form for this List, using Forms Windows application, add the contr
 Allows display of Ink Sketch control, most commonly used for signatures, inside the List View:
 
 ![Ink Sketch List View Example](http://plumsail.com/wp-content/customizer-screenshots/list-signature.png)
+
+### Data Table Field Customizer
+
+Allows display of Data Table control, table is rendered as an HTML table, inside the List View:
+
+![Data Table List View Example](http://plumsail.com/wp-content/customizer-screenshots/list-table.png)
+
+### Likert Scale Field Customizer
+
+Allows display of Likert ccale control, answers either in a row or several rows, inside the List View:
+
+![Likert Scale List View Example](http://plumsail.com/wp-content/customizer-screenshots/list-likert.png)
