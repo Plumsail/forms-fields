@@ -12,7 +12,7 @@
 
     <Field ID="{213de6b6-0d0d-4287-bea5-1a42c0978fd2}"
             Name="PlumsailDataTable"
-            DisplayName="DataTable"
+            DisplayName="Data Table"
             Type="Note"
             Min="0"
             Required="FALSE"
