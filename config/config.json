@@ -30,11 +30,7 @@
   "externals": {},
   "localizedResources": {
     "SignatureFieldCustomizerStrings": "lib/extensions/signature/loc/{locale}.js",
-<<<<<<< HEAD
     "DatatableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js",
     "LikertFieldCustomizerStrings": "lib/extensions/likert/loc/{locale}.js"
-=======
-    "DataTableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js"
->>>>>>> 0d33e3e2060517579afd7520a6ebe8e5c0ec0092
   }
 }
