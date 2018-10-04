@@ -17,11 +17,20 @@
           "manifest": "./src/extensions/datatable/DatatableFieldCustomizer.manifest.json"
         }
       ]
+    },
+    "likert-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/likert/LikertFieldCustomizer.js",
+          "manifest": "./src/extensions/likert/LikertFieldCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "SignatureFieldCustomizerStrings": "lib/extensions/signature/loc/{locale}.js",
-    "DatatableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js"
+    "DatatableFieldCustomizerStrings": "lib/extensions/datatable/loc/{locale}.js",
+    "LikertFieldCustomizerStrings": "lib/extensions/likert/loc/{locale}.js"
   }
 }

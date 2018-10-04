@@ -6,7 +6,7 @@
             Type="Note"
             Min="0"
             Required="FALSE"
-            Group="SPFx Columns"
+            Group="Plumsail Columns"
             ClientSideComponentId="1073e0de-7ffb-4450-af88-9b30da9fd35a">
     </Field>
 
@@ -16,7 +16,17 @@
             Type="Note"
             Min="0"
             Required="FALSE"
-            Group="SPFx Columns"
+            Group="Plumsail Columns"
             ClientSideComponentId="9d86b44c-fc29-424b-8da4-b831b9058e08">
+    </Field>
+
+    <Field ID="{f9533bcd-029e-4c20-8626-49de4ebee31a}"
+            Name="PlumsailLikertScale"
+            DisplayName="LikertScale"
+            Type="Note"
+            Min="0"
+            Required="FALSE"
+            Group="Plumsail Columns"
+            ClientSideComponentId="f0131f58-9087-42b5-9961-2c52f454e614">
     </Field>
 </Elements>
