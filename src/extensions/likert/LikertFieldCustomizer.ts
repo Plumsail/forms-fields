@@ -6,7 +6,6 @@ import {
 } from '@microsoft/sp-listview-extensibility';
 
 import * as strings from 'LikertFieldCustomizerStrings';
-import styles from './LikertFieldCustomizer.module.scss';
 
 /**
  * If your field customizer uses the ClientSideComponentProperties JSON input,
@@ -35,25 +34,21 @@ export default class LikertFieldCustomizer
 
   @override
   public onRenderCell(event: IFieldCustomizerCellEventParameters): void {
-    event.domElement.classList.add(styles.Likert);
     if (event.fieldValue) {
-        var likert = JSON.parse(event.fieldValue);
-        console.log(likert);
-        var html = '';
-        if(typeof likert[0] == 'string') {
-          html += likert;
+        let data = JSON.parse(event.fieldValue);
+        if (data && data.length) {
+            let html = data.map(answer => {
+                if (answer === null || answer === undefined || answer.length === 0)
+                    return '&mdash;';
+
+                if (typeof answer === 'string')
+                    return answer;
+
+                return answer.map(v => v === null || v === undefined || v === '' ? '-' : v).join(', ');
+            }).join('<br />');
+
+            event.domElement.innerHTML = html;
         }
-        else {
-          for(var i = 0; i < likert.length; i++){
-            var answers = likert[i];
-            html += '<p>' + answers[0];
-            for(var j = 1; j < answers.length; j++){
-              html += ',' + answers[j];
-            }
-            html += '</p>';
-          }
-        }
-        event.domElement.innerHTML = html;
     }
   }
 
