@@ -1,10 +1,10 @@
 ## Fields customizers
 
-[How to use package](#how-to-use-package)
-[Signature Field Customizer](#signature-field-customizer)
-[Data Table Field Customizer](#data-table-field-customizer)
-[Likert Scale Field Customizer](#likert-scale-field-customizer)
-[Further customization](#further-customization)
+* [How to use package](#how-to-use-package)
+* [Signature Field Customizer](#signature-field-customizer)
+* [Data Table Field Customizer](#data-table-field-customizer)
+* [Likert Scale Field Customizer](#likert-scale-field-customizer)
+* [Further customization](#further-customization)
 
 This repository contains SharePoint Field Customizers for SharePoint Online Modern UI, which allow rendering of Plumsail Forms controls in List View.
 
