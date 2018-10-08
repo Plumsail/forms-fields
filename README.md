@@ -48,3 +48,10 @@ Allows display of Data Table control, table is rendered as an HTML table, inside
 Allows display of Likert ccale control, answers either in a row or several rows, inside the List View:
 
 ![Likert Scale List View Example](http://plumsail.com/wp-content/customizer-screenshots/list-likert.png)
+
+### Further customization
+You can clone the repository and modify existing customizers to your liking. Customize each extension in src/extensions/*customizer* - you can modify HTML template with Typescript or modify SCSS files to improve presentation of each field.
+
+You can also add new field customizers to the solution.
+
+More about customization here - https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/building-simple-field-customizer
