@@ -6,7 +6,7 @@
 * [Likert Scale Field Customizer](#likert-scale-field-customizer)
 * [Further customization](#further-customization)
 
-This repository contains SharePoint Field Customizers for SharePoint Online Modern UI, which allow rendering of Plumsail Forms controls in List View.
+This repository contains SharePoint Field Customizers for SharePoint Online Modern UI, which allow rendering of [Plumsail Forms](https://plumsail.com/forms/) controls in List View.
 
 You can either download the package and use it on your own site or clone the repository, modify code, and build your own Field Customizers based on these examples.
 
