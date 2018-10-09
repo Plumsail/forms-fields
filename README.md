@@ -1,6 +1,6 @@
 ## Fields customizers
 
-* [How to use package](#how-to-use-package)
+* [Installation](#installation)
 * [Signature Field Customizer](#signature-field-customizer)
 * [Data Table Field Customizer](#data-table-field-customizer)
 * [Likert Scale Field Customizer](#likert-scale-field-customizer)
@@ -10,7 +10,7 @@ This repository contains SharePoint Field Customizers for SharePoint Online Mode
 
 You can either download the package and use it on your own site or clone the repository, modify code, and build your own Field Customizers based on these examples.
 
-### How to use package
+### Installation
 
 You need to download the .sppkg file first - https://github.com/Plumsail/forms-fields/raw/master/sharepoint/solution/Plumsail.Fields.sppkg
 
@@ -54,4 +54,4 @@ You can clone the repository and modify existing customizers to your liking. Cus
 
 You can also add new field customizers to the solution.
 
-More about customization here - https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/building-simple-field-customizer
+More about Field Customizers here - https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/building-simple-field-customizer
