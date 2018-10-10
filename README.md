@@ -12,9 +12,9 @@ You can either download the package and use it on your own site or clone the rep
 
 ### Installation
 
-You need to download the .sppkg file first - https://github.com/Plumsail/forms-fields/raw/master/sharepoint/solution/Plumsail.Fields.sppkg
+You need to download [Plumsail.Fields.sppkg](https://github.com/Plumsail/forms-fields/raw/master/sharepoint/solution/Plumsail.Fields.sppkg) file first.
 
-Upload this file to your App Catalog in SharePoint Admin Center, more about it here - https://docs.microsoft.com/en-us/sharepoint/use-app-catalog
+Upload this file to the [App Catalog](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog).
 
 Find and add the new application to your site:
 
